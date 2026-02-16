@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - El Fili Portal</title>
+    <link rel="stylesheet" href="style/sign-up.css">
+</head>
+<body>
+   <div class="signup-container">
+    <div class="signup-wrapper">
+        <div class="logo-container">
+            <img src="images/logo-removebg-preview.png" alt="El Fili Logo">
+        </div>
+        
+        <div class="signup-form">
+            <h1>Create Account</h1>
+            <p class="form-subtitle">Join us today! Fill in your details below</p>
+            
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Create a strong password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                
+                <div class="terms-checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+                </div>
+                
+                <button type="submit" class="signup-btn">Create Account</button>
+            </form>
+            
+            <div class="divider">
+                <span>Or continue with</span>
+            </div>
+            
+            <div class="social-login">
+                <button type="button" class="social-btn google-btn">
+                    <img src="images/google-logo.png" alt="Google Logo" class="social-icon">
+                    Google
+                </button>
+                <button type="button" class="social-btn apple-btn">
+                    <img src="images/apple-logo.png" alt="Apple Logo" class="social-icon">
+                    Apple
+                </button>
+            </div>
+            
+            <p class="login-link">Already have an account? <a href="log-in.html">Login here</a></p>
+        </div>
+    </div>
+   </div> 
+</body>
+</html>
